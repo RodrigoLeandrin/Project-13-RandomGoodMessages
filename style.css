@@ -31,16 +31,16 @@ body{
     font-family: cursive;
     position: absolute;
     z-index: 4;
-    width: 25%;
-    height: 200px;
+    width: 15%;
+    height: 120px;
     margin-top: 1500px;
-    margin-left: 1600px;
+    margin-left: 1800px;
     background-color: rgb(86, 86, 227);
     border-radius: 30px;
     outline: 0;
     border: 0;
     cursor: pointer;
-    font-size: 150px;
+    font-size: 70px;
 }
 
 
@@ -52,4 +52,39 @@ body{
     padding: 0;
     margin: 0;
    
+}
+
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(111, 111, 111);
+    margin-top: 500px;
+    transition: opacity .5s ease;
+    
+}
+
+h2{
+    font-size: 60px;
+    color: rgb(168, 168, 168);
+    transition: opacity .5s ease;
+
+
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+        color: white;
+    }
+
+
+    100%{
+    opacity: 1;
+
+}
+}
+
+.fade{
+    opacity: 0;
 }

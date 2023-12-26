@@ -9,12 +9,20 @@ function generate(){
     }
 
 
+
+
+document.querySelector("h1").classList.add('fade');
+document.querySelector("h2").classList.add('fade');
 var authors = Object.keys(quotes);
 console.log(authors);
 var author = authors[Math.floor(Math.random()*authors.length)];
 var quote = quotes[author];
 
-document.querySelector("h1").innerHTML=quote;
+setTimeout (function(){
+document.querySelector("h1").innerText=quote;
+document.querySelector("h1").classList.remove('fade');
 
 document.querySelector("h2").innerHTML=author;
+document.querySelector("h2").classList.remove('fade');
+},500);
 }
