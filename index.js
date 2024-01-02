@@ -8,6 +8,8 @@ function generate(){
         "- 3 Jesus Christ" : '"As the Father has loved me, so have I loved you."',
         "-4 Jesus Christ" : '"It is not the healthy who need a doctor, but the sick. I have not come to call the righteous, but sinners to repentance."',
        "-5 Jesus Christ" : '"And know that I am with you always; yes, to the end of time."',
+
+To be grateful
      
     }
 
